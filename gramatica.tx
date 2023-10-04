@@ -1,0 +1,14 @@
+Song:
+  parts+=Part*;
+
+Part:
+  Chorus | Verse | Interlude;
+
+Chorus:
+  'Chorus:' content=STRING;
+
+Verse:
+  'Verse:' content=STRING;
+
+Interlude:
+  'Interlude:' content=STRING;
